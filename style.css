@@ -1,15 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
 html {
   height: 100%;
   width: 100%;
 }
 
 body {
-  background-color: black;
+  background-color: #172B3D;
   color: white;
+}
+
+h2 {
+  color: #4ADD8E;
+  text-align: center;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 #message {
   text-align: center;
   font-size: 24px;
+  height: 20vh;
+  overflow: scroll;
+  margin-top: 2.3rem;
+  margin-left: 12px;
+  margin-right: 12px;
   font-family: "Arial", sans-serif;
+}
+
+.category {
+  margin-left: 12px;
+  font-family: sans-serif;
+}
+
+.btn-cont {
+  gap: 2.5rem;
+  display: flex;
+  margin-top: 2.6rem;
+  justify-content: center;
+}
+
+#genBtn {
+  width: 5rem;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #4ADD8E;
+  font-family: sans-serif;
+  border-radius: 7px;
+  border-style: none;
+}
+
+#copyBtn {
+  width: 5rem;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #4ADD8E;
+  font-family: sans-serif;
+  border-radius: 7px;
+  border-style: none;
+}
+
+.hide {
+  display: none;
 }
