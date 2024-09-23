@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#message {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+}
